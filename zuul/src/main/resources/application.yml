@@ -1,0 +1,15 @@
+
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://ack-center-node1:8761/eureka/,http://ack-center-node2:8766/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: serive-zuul
+zuul:
+  routes:
+     service-helloworld2: /hello/**
+     service-helloworld: /hello2/**
