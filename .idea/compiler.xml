@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configclient" />
+        <module name="eureka_client" />
+        <module name="eureka_client2" />
+        <module name="eureka_server" />
+        <module name="eureka_server2" />
+        <module name="spring-cloud-config-server" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configclient" target="1.8" />
+      <module name="eureka_client" target="1.8" />
+      <module name="eureka_client2" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="eureka_server2" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="springclouds" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
