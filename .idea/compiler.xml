@@ -6,23 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
         <module name="configclient" />
         <module name="eureka_client" />
         <module name="eureka_client2" />
         <module name="eureka_server" />
         <module name="eureka_server2" />
+        <module name="hystrix-dashboard-turbine" />
+        <module name="provider-demo" />
         <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-consumer-hystrix-dashboard" />
+        <module name="springboot_commonutil" />
+        <module name="springcloud-mybatis" />
+        <module name="thymeleaf" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
       <module name="configclient" target="1.8" />
       <module name="eureka_client" target="1.8" />
       <module name="eureka_client2" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="eureka_server2" target="1.8" />
+      <module name="hystrix-dashboard-turbine" target="1.8" />
+      <module name="provider-demo" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="springboot_commonutil" target="1.8" />
+      <module name="springcloud-mybatis" target="1.8" />
       <module name="springclouds" target="1.8" />
+      <module name="thymeleaf" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,9 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://ack-center-node1:8761/eureka/,http://ack-center-node2:8766/eureka/
+server:
+    port: 8763
+spring:
+    application:
+        name: service-helloworld2

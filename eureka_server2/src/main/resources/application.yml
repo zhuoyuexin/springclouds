@@ -1,11 +1,11 @@
 server:
    port: 8766
 
-# eureka.client.registerWithEureka £º±íÊ¾ÊÇ·ñ½«×Ô¼º×¢²áµ½Eureka Server£¬Ä¬ÈÏÎªtrue¡£
+# eureka.client.registerWithEureka ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ç·ï¿½ï¿½Ô¼ï¿½×¢ï¿½áµ½Eureka Serverï¿½ï¿½Ä¬ï¿½ï¿½Îªtrueï¿½ï¿½
 
-# ÓÉÓÚµ±Ç°Õâ¸öÓ¦ÓÃ¾ÍÊÇEureka Server£¬¹Ê¶øÉèÎªfalse
-# eureka.client.fetchRegistry £º±íÊ¾ÊÇ·ñ´ÓEureka Server»ñÈ¡×¢²áĞÅÏ¢£¬Ä¬ÈÏÎªtrue¡£ÒòÎªÕâÊÇÒ»¸öµ¥µãµÄEureka Server£¬
-# ²»ĞèÒªÍ¬²½ÆäËûµÄEureka Server½ÚµãµÄÊı¾İ£¬¹Ê¶øÉèÎªfalse¡£
+# ï¿½ï¿½ï¿½Úµï¿½Ç°ï¿½ï¿½ï¿½Ó¦ï¿½Ã¾ï¿½ï¿½ï¿½Eureka Serverï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½Îªfalse
+# eureka.client.fetchRegistry ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ç·ï¿½ï¿½Eureka Serverï¿½ï¿½È¡×¢ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½Ä¬ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eureka Serverï¿½ï¿½
+# ï¿½ï¿½ï¿½ï¿½ÒªÍ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eureka Serverï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½İ£ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½Îªfalseï¿½ï¿½
 
 eureka:
    instance:
@@ -16,11 +16,11 @@ eureka:
        registerWithEureka: true
        fetchRegistry: true
        serviceUrl:
-       # eureka.client.serviceUrl.defaultZone £ºÉèÖÃÓëEureka Server½»»¥µÄµØÖ·£¬²éÑ¯·şÎñºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·¡£Ä¬ÈÏÊÇ
+       # eureka.client.serviceUrl.defaultZone ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eureka Serverï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½
            defaultZone: http://ack-center-node1:8761/eureka/
    server:
      enable-self-preservation: true
-     #Eureka×ÔÎÒ±£»¤
+     #Eurekaï¿½ï¿½ï¿½Ò±ï¿½ï¿½ï¿½
 spring:
   application:
     name: ack-center

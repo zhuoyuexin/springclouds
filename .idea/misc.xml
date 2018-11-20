@@ -11,6 +11,13 @@
         <option value="$PROJECT_DIR$/eureka_server2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/configclient/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_commonutil/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
       </list>
     </option>
   </component>

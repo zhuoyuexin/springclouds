@@ -1,0 +1,30 @@
+eureka:
+    client:
+        registryFetchIntervalSeconds: 5
+        serviceUrl:
+            defaultZone: http://ack-center-node1:8761/eureka/,http://ack-center-node2:8766/eureka/
+    instance:
+      lease-renewal-interval-in-seconds: 10
+      lease-expiration-duration-in-seconds: 5
+      health-check-url-path: /actuator/health
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+server:
+    port: 8762
+spring:
+    application:
+        name: service-helloworld
+    boot:
+        admin:
+          client:
+            url: "http://localhost:8081"
+            password: password
+            username: user
+            instance:
+              prefer-ip: true
